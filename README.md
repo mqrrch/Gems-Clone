@@ -1,8 +1,12 @@
-# React + Vite
+# Gems Landing Page Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is just a clone for practicing.
+Made with:
+- React + Vite
+- React Router
+- React Spring
+- Tailwind CSS
 
-Currently, two official plugins are available:
+Cloned website: https://mqrrch.github.io/Gems-Clone
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Original website: https://www.gems.so
