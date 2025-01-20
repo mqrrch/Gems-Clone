@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Navbar({ handleResourceLoaded }){
     return(
         <nav className="mt-8 flex px-6">
@@ -6,7 +8,7 @@ function Navbar({ handleResourceLoaded }){
             </a>
             <div className="nav-links space-x-6 ml-6">
                 <a className="text-dark-gray text-sm font-light" href="/Gems-Clone/#features">Features</a>
-                <a className="text-dark-gray text-sm font-light" href="blog">Blog</a>
+                <Link className="text-dark-gray text-sm font-light" to="/Gems-Clone/blog">Blog</Link>
             </div>
         </nav>
     )
