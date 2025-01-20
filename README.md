@@ -7,6 +7,6 @@ Made with:
 - React Spring
 - Tailwind CSS
 
-Cloned website: https://mqrrch.github.io/Gems-Clone
+Cloned website: https://mqrrch.github.io/Gems-Clone/
 
 Original website: https://www.gems.so
