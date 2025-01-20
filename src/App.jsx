@@ -1,21 +1,19 @@
 import './App.css'
-import Navbar from './comps/Navbar'
-import HeroPage from './comps/HeroPage'
-import SecondPage from './comps/SecondPage'
-import ThirdPage from './comps/ThirdPage'
-import FourthPage from './comps/FourthPage'
-import Footer from './comps/Footer'
+import './comps/Landing Page/styles.css'
+import './comps/Blog/styles.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import LandingPage from './comps/Landing Page/LandingPage'
+import Blog from './comps/Blog/Blog'
+
 
 function App() {
   return(
-    <div className='h-auto flex flex-col justify-center p-4'>
-      <Navbar />
-      <HeroPage />
-      <SecondPage />
-      <ThirdPage />
-      <FourthPage />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/Gems-Clone/' element={<LandingPage />}></Route>
+        <Route path='/Gems-Clone/blog' element={<Blog />}></Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

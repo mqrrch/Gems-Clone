@@ -1,0 +1,23 @@
+.blog-title{
+    font-size: 2rem;
+    line-height: 1.15;
+}
+
+.blog-title-2{
+    font-size: 28px;
+    color: #ccc;
+}
+
+.blog-contents{
+    max-width: 550px;
+}
+
+.blog-list{
+    list-style-type: disc;
+}
+
+@media only screen and (min-width: 990px){
+    .blog-title{
+        font-size: 48px;
+    }
+}
