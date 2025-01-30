@@ -4,10 +4,10 @@ function Loading({ isLoaded }){
     const [isLoading, setIsLoading] = useState(true)
 
     useEffect(() => {
-        if(isLoaded >= 5){
+        if(isLoaded > 0){
             const timer = setTimeout(() => {
                 setIsLoading(false)
-            }, 4000)
+            }, 7000)
 
             return () => clearTimeout(timer)
         }

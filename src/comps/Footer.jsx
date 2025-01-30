@@ -4,7 +4,7 @@ function Footer({ handleResourceLoaded }){
             <div className="footer-line w-full mt-40"></div>
             <div className="footer-wrapper text-center">
                 <a className="footer-logo-wrapper flex justify-center mt-10" href="/Gems-Clone/">
-                    <img src="https://cdn.prod.website-files.com/643e6ce50c675406e7c9e19c/643f77a8d3f66514cf61dac9_GEMS-BETA.svg" loading="lazy" alt="Gems Beta Logo" onLoad={handleResourceLoaded}></img>
+                    <img src="https://cdn.prod.website-files.com/643e6ce50c675406e7c9e19c/643f77a8d3f66514cf61dac9_GEMS-BETA.svg" loading="lazy" alt="Gems Beta Logo"></img>
                 </a>
                 <div className="footer-links flex flex-col mt-10 gap-6 pb-16 text-dark-gray text-sm">
                     <a href="/Gems-Clone/">Home</a>
